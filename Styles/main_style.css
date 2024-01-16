@@ -1,0 +1,111 @@
+/* css Import */
+@import url(./reset.css);
+@import url(./fontface.css);
+@import url(./media.css);
+@import url(../Fonts/Awsome/all.css);
+
+/* css Root */
+:root{
+ --White_: #ffffff;
+ --Gray_Light: #b4b4b4;
+ --Gray_: #8f8f8f;
+ --Gray_Dark: #636363;
+--Black_:#000;
+
+ --Green_: #94D2BD;
+ --Blue_light: #0A9396;
+ --Blue_: #005F73;
+ --Blue_Dark: #001219;
+
+ --Yellow_Light: #E9D8A6;
+ --Yellow_: #f0c954;
+ --Orange_Light: #fdc50e;
+
+ --Orange_: #CA6702;
+
+ --Red_Light: #BB3E03;
+ --Red_: #AE2012;
+ --Red_Dark:#9B2226;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body{
+ max-width: 500px;
+min-width: 300px;
+max-height: 800px;
+min-height: 680px;
+width: 350px ;
+height: 680px;
+margin: 0 auto;
+direction: rtl;
+}
+
+
+
+/* css Content */
+
+/* --- Header */
+header{
+ width: auto;
+ height:300px;
+ margin: 10px 10px 0;
+ position: relative;
+}
+
+.header__nav__container{
+ width: auto;
+}
+
+.nav{
+ width: 300px;
+ height: 30px;
+ position: relative;
+}
+
+.nav__icon{
+ position: absolute;
+ top: 10px;
+ right:10px;
+ width: 30px;
+ height: 30px;
+ background-color: black;
+}
+
+.header__background__container{
+ position: relative;
+}
+.header__border{
+ width: 340px;
+ height: 3px;
+ position: absolute;
+ top: 150px;
+ left: -5px;
+ border-top: 3px solid var(--Black_);
+ transform: rotate(-15deg);
+}
+.profilePicture__container{
+ width: auto;
+ position: absolute;
+ top:70px;
+ left: 35px;
+}
+
+.profilePicture{
+ width: 130px;
+ height: 130px ;
+}
+.profilePicture__img{
+ width:100%;
+ height: 100%;
+}
+/* css Global */
+.background_test{
+ background-color: black;
+ height: 300px;
+}
+
+
+
