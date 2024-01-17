@@ -1,0 +1,19 @@
+
+viw-det> body{
+ max-width: 500px;
+min-width: 300px;
+max-height: 800px;
+min-height: 680px;
+width: 350px ;
+height: 680px;
+}
+
+viw-det> header{
+  width: 300px;
+ height:300px;
+ margin: 10px 10px 0;}
+
+ viw-det>.profilePicture{
+ width: 130px;
+ height: 130px ;
+}
