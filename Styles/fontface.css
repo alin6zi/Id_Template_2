@@ -1,5 +1,35 @@
+/* css Fontface */
 
 @font-face {
-    font-family: yekan;
-    src: url(../Fonts/iranyekan.woff) format(woff);
+  font-family: yekan;
+  src: url(../Fonts/iranyekan.woff) format(woff);
 }
+
+@font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../Fonts/Awsome/webfonts/fa-regular-400.woff2") format("woff2"), url("../Fonts/Awsome/webfonts/fa-regular-400.ttf") format("truetype"); 
+}
+@font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../Fonts/Awsome/webfonts/fa-solid-900.woff2") format("woff2"), url("../Fonts/Awsome/webfonts/fa-solid-900.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../Fonts/Awsome/webfonts/fa-brands-400.woff2") format("woff2"), url("../Fonts/Awsome/webfonts/fa-brands-400.ttf") format("truetype");
+ }
+
+ @font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-display: block;
+    src: url("../Fonts/Awsome/webfonts/fa-v4compatibility.woff2") format("woff2"), url("../Fonts/Awsome/webfonts/fa-v4compatibility.ttf") format("truetype");
+ }
