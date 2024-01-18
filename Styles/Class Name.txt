@@ -1,0 +1,41 @@
+
+------ Class Name Explain ------
+
+! BEM Methode Class Name Describtion :
+
+* { -Parent Block- } Are Container Of [ -Element Block- ],
+* [ -Element Block- ] Is Container For ( -Element Child Block- )
+* ( -Element Child Block- ) Is Container For < -Design Block- > Properties
+* < -Design Block- > Have some < -Property Class- > for Values
+* {Parent Block} And [Element Block] Dont Have \Box-sizing Design/ Like Margin Or Padding
+
+! Class Name Syntax :
+
+? Parent Block:
+// .{ blockName }
+
+? First Generation Child:
+// .{ blockName } _ _ [ elementNameBlock ]
+
+? Next Generation Child Blocks:
+// .[ elementName(Parent) ] _ _ ( elementName(Child) )
+
+? Childs Design:
+// .( elementName(Child Block) ) _ _< propertyName > _ value
+
+? Global Classes:
+// .g _ < propertyName > _ value
+
+! Example :
+<body>
+  <header class=" { Parent Block } ">
+      <div class=" { Parent Block } _ _ [ Element Block ]">
+        <ul class=" [ Element Block ] _ _ ( Element Child 1st )">
+          <li class=" (Element Child 1st) _ _ (new  Element Child 2nd)
+            <p class=" (new Element Child 2nd) _ _ <New Element Child 3rd>   g _ Property _ Value" > Text </p
+          </li>
+        </ul>
+    </div>
+  </header>
+</body>
+

@@ -1,0 +1,22 @@
+:root {
+  --White_: #ffffff;
+  --Gray_Light: #b4b4b4;
+  --Gray_: #8f8f8f;
+  --Gray_Dark: #636363;
+--Black_:#000;
+
+  --Green_: #94D2BD;
+  --Blue_light: #0A9396;
+  --Blue_: #005F73;
+  --Blue_Dark: #001219;
+
+  --Yellow_Light: #E9D8A6;
+  --Yellow_: #f0c954;
+  --Orange_Light: #fdc50e;
+
+  --Orange_: #CA6702;
+
+  --Red_Light: #BB3E03;
+  --Red_: #AE2012;
+  --Red_Dark:#9B2226;
+}
